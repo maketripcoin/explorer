@@ -5,18 +5,18 @@
 */
 {
   // name your instance!
-  "title": "CIQUIDUS",
+  "title": "Trip Explorer",
 
   "address": "127.0.0.1:3001",
 
   // coin name
-  "coin": "Chaincoin",
+  "coin": "Trip",
 
   // coin symbol
-  "symbol": "CHC",
+  "symbol": "TRIP",
 
   // logo
-  "logo": "/images/chain_dark-128x128.png",
+  "logo": "/images/trip-128x128.png",
 
   // favicon
   "favicon": "public/favicon.ico",
@@ -33,7 +33,7 @@
 
   // database settings (MongoDB)
   "dbsettings": {
-    "user": "ciquidus",
+    "user": "trip",
     "password": "3xp!0reR",
     "database": "explorerdb",
     "address": "localhost",
@@ -47,8 +47,8 @@
   // wallet settings
   "wallet": {
     "host": "localhost",
-    "port": 11995,
-    "user": "chaincoinrpc",
+    "port": 41000,
+    "user": "triprpc",
     "pass": "123gfjk3R3pCCVjHtbRde2s5kzdf233sa"
   },
 
@@ -67,9 +67,9 @@
     "facebook": false,
     "googleplus": false,
     "bitcointalk": false,
-    "website": false,
+    "website": true,
     "slack": false,
-    "github": false,
+    "github": true,
     "search": true,
     "movement": true,
     "network": true
@@ -78,7 +78,7 @@
   // index page (valid options for difficulty are POW, POS or Hybrid)
   "index": {
     "show_hashrate": true,
-    "difficulty": "POW",
+    "difficulty": "POS",
     "last_txs": 100
   },
 
@@ -120,13 +120,13 @@
   },
 
   // twitter, facebook, googleplus, bitcointalk, github, slack, website
-  "twitter": "suprnurd",
+  "twitter": "trip_coin",
   "facebook": "yourfacebookpage",
   "googleplus": "yourgooglepluspage",
-  "bitcointalk": "yourbitcointalktopicvalue",
-  "github": "yourgithubusername/yourgithubrepo",
+  "bitcointalk": "4440592",
+  "github": "maketripcoin/trip",
   "slack": "yourfullslackinviteurl",
-  "website": "yourfullwebsiteurl",
+  "website": "https://www.tripcoin.love",
 
   //genesis
   "genesis_tx": "fa6ef9872494fa9662cf0fecf8c0135a6932e76d7a8764e1155207f3205c7c88",
